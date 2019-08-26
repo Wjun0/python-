@@ -1,0 +1,6 @@
+dst_file = open("2.png", "wb")
+src_file = open("1.png", "rb")
+data = src_file.read()
+dst_file.write(data)
+src_file.close()
+dst_file.close()
